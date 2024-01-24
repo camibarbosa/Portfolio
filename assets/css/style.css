@@ -249,6 +249,62 @@ header {
     justify-content: center;
 }
 
+/* ---- Start About section ---- */
+.about {
+    background: var(--bg-black);
+}
+.about-me-img {
+    border-radius: 20px;
+    overflow: hidden;
+    animation: up-down .4s ease-in;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 38% auto;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-left {
+    border-radius: 20px;
+    overflow: hidden;
+} 
+
+span {
+    gap: 1rem;
+}
+
+.basic-edu {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.edu-box {
+    padding: 24px;
+    text-align: center;
+    border: 1px solid var(--color-dark-variant);
+    border-radius: 30px;
+    width: 100%;
+}
+
+.lang-container p {
+    margin-top: 20px;
+}
+
+.lang-box {
+    margin-top: 20px;
+}
+
+.lang span {
+    margin-top: 10px;
+    font-weight: 500;
+    color: var(--color-black);
+}
+/* ---- end About section ---- */
+
+
 @media (max-width: 500px) {
 
     h1 {
