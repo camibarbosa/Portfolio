@@ -525,8 +525,8 @@ span {
 .swiper-pagination-bullet-active {
     background-color: var(--color-purple);
 }
-  
-  /* ---- end certification section ---- */
+/* ---- end certification section ---- */
+
 /* ---- start contact section ---- */
 .contact-container {
     max-width: 30rem;
@@ -581,6 +581,28 @@ button:hover {
 }*/
 
 /* ---- end contact section ---- */
+
+/* ---- start footer section ---- */
+footer {
+    margin-top: 9rem;
+    padding: 30px;
+    text-align: center;
+    background: var(--bg-black);
+}
+
+footer .nav-links {
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+footer .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+/* ---- end footer section ---- */
 
 
 @media (max-width: 500px) {
