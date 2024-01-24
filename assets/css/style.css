@@ -385,6 +385,53 @@ span {
 /* ---- end experience section ---- */
 
 
+/* ---- start projects section ---- */
+.projects {
+    background: var(--bg-black);
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.project {
+    padding: 24px;
+    text-align: center;
+    border: 1px solid var(--color-dark-variant);
+    border-radius: 30px;
+}
+
+.project img {
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
+
+.project-action-aria {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.project p {
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+}
+
+.project span {
+    padding: 0.5rem;
+    background: var(--color-lavanda);
+    width: 10px;
+    border-radius: 10px;
+    color: var(--black);
+    font-size: 10px;
+}
+
+/* ---- end projects section ---- */
+
+
 @media (max-width: 500px) {
 
     h1 {
