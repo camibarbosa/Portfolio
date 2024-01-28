@@ -47,6 +47,7 @@ const sr = ScrollReveal({
 sr.reveal('.container',{})
 sr.reveal('.featured-name',{delay: 100})
 sr.reveal('.header-info',{delay: 200})
+sr.reveal('.heading',{delay: 300})
 sr.reveal('.btn',{delay: 200})
 sr.reveal('.social-media',{delay: 200})
 sr.reveal('.header-left',{delay: 300})
