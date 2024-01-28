@@ -11,20 +11,19 @@
     <meta name="author" content="Camila Barbosa">
     <meta name="description" content="Portfólio da desenvolvedora Camila Barbosa">
     <meta name="keywords" content="portfolio, java, back-end, desenvolvimento, springboot, github">
-    <link rel="icon" href="./images/icon.jpeg">
+    <link rel="icon" href="./images/flower-yellow.svg">
 
     <title>Camila Barbosa - Portfolio</title>
 </head>
 <body>
     <!-- Start nav bar -->
-    <nav>
-        <div class="container nav-container">
-            <a href="#index.html" class="logo"><b>CB</b></a>
+    <nav id="nav-header">
+        <div class=" nav-container" id="nav">
+           <a href="#index.html" class="logo-text"> <img src="/assets/images/flower.svg" alt="" class="flower logo"><b>Cami.dev</b></a>
             <ul class="nav-links menu">
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#experiences">Experiências</a></li>
                 <li><a href="#projects">Projetos</a></li>
-                <li><a href="#certificates">Certificados</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
             <div class="toggle_btn">
@@ -35,7 +34,6 @@
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#experiences">Experiências</a></li>
                 <li><a href="#projects">Projetos</a></li>
-                <li><a href="#certificates">Certificados</a></li>
                 <li><a href="#contact">Contato</a></li>
             </div>
         </div>
@@ -46,19 +44,22 @@
     <header>
         <div class="container header-container">
             <div class="header-left">
-                <img src="assets/images/icon.jpeg" alt="" class="header-img">
+                <img src="assets/images/avatar.jpg" alt="" class="header-img">
             </div>
             <div class="header-right">
-                <h1>Camila Barbosa</h1>
-                <h2>Back-end Developer</h2>
+                <h3>Olá, eu sou a</h3>
+                <h1 class="featured-name">Camila Barbosa</h1>
+                <h5 class="header-info">Desenvolvedora Back-end, apaixonada por resolver problemas e fascinada por tecnologia.</h5>
                 <div class="header-action-aria">
-                    <a href="assets/images/curriculo.pdf" class="btn" download="">Download CV</a>
-                    <a href="#contact" class="btn btn-dark">Contato</a>
+                    <a ref="linkedin.com/in/iamcamilabarbosa/" target="_blank" class="btn" download=""><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                    <a href="https://github.com/camibarbosa" target="_blank" class="btn btn-dark"><i class="fa-brands fa-github"></i>GitHub</a>
                 </div>
-                <div class="header-social">
-                    <a href="linkedin.com/in/iamcamilabarbosa/" target="_blank"><i class="fa-brands fa-linkedin"></i>
-                    <a href="https://github.com/camibarbosa" target="_blank"><i class="fa-brands fa-github"></i></a>
+              
                 </div>
+            </div>
+
+            <div>
+                <a href="#about"><img src="assets/images/down-arrow.svg" alt="" class="icon arrow"></i></a>
             </div>
         </div>
     </header>
@@ -66,41 +67,25 @@
 
     <!-- Start About section -->
     <section id="about" class="about">
-        <h1 class="heading">&lsaquo; sobre mim /&rsaquo;</About></h1>
+        <h1 class="heading">Sobre mim</h1>
         <div class="container about-container">
             <div class="about-left">
-                <img src="assets/images/sfgs.jpg" alt="" class="about-me-img">
+                <img src="assets/images/me.jpg" alt="" class="about-me-img">
             </div>
             <div class="about-right">
-                <div class="basic-edu">
-                    <div class="edu-box">
-                        <img src="" alt=""><i class="icon ion-md-briefcase"></i>
-                        <h4>Experiência</h4>
-                        <p>5 meses
-                            <br>
-                            Estágio em desenvolvimento
-                        </p>
-                    </div>
-                    <div class="edu-box">
-                        <i class="icon ion-md-school"></i>
-                        <h4>Educação</h4>
-                        <p>CST 
-                            <br>
-                            Análise e Desenvolvimento de Sistemas
-                        </p>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam distinctio consequatur numquam repellat iste molestiae velit ut aut debitis delectus corporis molestias ullam amet pariatur quo, aspernatur ipsum perferendis, maiores fugiat voluptates dolores dicta minus recusandae. Magnam ad rerum id.</p>
+                <p>Minha trajetoria no desenvolvimento back-end começou há pouco tempo, mas estou dedicada a aprimorar constantemente minhas habilidades e conhecimentos. Atualmente estou cursando o último semestre em Análise e Desenvolvimento de Sistemas. Possuo uma base sólida em <span class="text-color">Java, Spring Boot e MySQL</span>, e já desenvolvi alguns pequenos projetos pessoais para praticar e consolidar meu aprendizado.<br><br>Sou uma pessoa que busca estar em constante evolução. Abordo os problemas com curiosidade e criatividade, sempre receptiva a feedbacks construtivos para aprimorar minhas criações. Minha missão é desenvolver softwares seguros eficientes e escaláveis, que sejam de grande utilidade para a sociedade. 
                 <div class="lang-container">
-                    <p>Here are some technologies I have been working with:</p>
+                    <p>Minhas principais habilidades:</p>
                     <div class="lang-box">
-                        <ul>
-                            <li class="lang"><span>▹ Java</span></li>
-                            <li class="lang"><span>▹ Spring Boot</span></li>
-                            <li class="lang"><span>▹ Docker</span></li>
-                            <li class="lang"><span>▹ AWS</span></li>
-                            <li class="lang"><span>▹ PostgreSQL</span></li>
+                        <ul class="lang-ul">
+                            <li class="lang"><span>Java</span></li>
+                            <li class="lang"><span>AWS</span></li>
+                            <li class="lang"><span>Docker</span></li>
+                            <li class="lang"><span>MySQL</span></li>
+                            <li class="lang"><span>PostgreSQL</span></li>
+                            <li class="lang"><span>Spring Boot</span></li>
                         </ul>
+                        <a href="assets/images/curriculo.pdf" class="btn cv" download="">Download CV</a>
                     </div>
                 </div>
             </div>
@@ -110,8 +95,7 @@
 
     <!-- Start Experience section -->
     <section id="experiences" class="experiences">
-        <a href="#experiences"><img src="assets/images/arrow.png" alt="" class="icon arrow" ></i></a>
-        <h1 class="heading">&lsaquo; experiências /&rsaquo;</h1>
+        <h1 class="heading">Experiências</h1>
         <div class="container experience-container">
             <div class="tab-panel-container">
                 <div class="tab-panel active">
@@ -120,25 +104,20 @@
                   <div class="joblist-duration">JUL 2023 - DEZ 2023</div>
                   <ul class="job-description">
                     <li>
-                      <p>Led development of end-to-end region build automation across Route
-                      53 (AWS's DNS web service). This enabled the launch of customer-
-                      facing global services in new regions within a day, a significant
-                      reduction from the previous time-frame of a month.</p>
+                      <p>Meu primeiro programa de bolsas que tive o prazer de fazer parte durante 5 meses. </p>
                     </li>
                     <li>
-                      <p>Re-built Route 53's core domain management and DNS systems to
-                      provide a better user experience to millions of customers.</p>
+                      <p>Realizei diversas trilhas de aprendizado, nas quais pude aprender e me desenvolver na stack Java e o framework Spring Boot e no desenvolvimento de soluções digitais. Além disso, <span class="text-color">participei de projetos que simulam a experiência no mercado de trabalho</span>, trabalhando em equipe e lidando com o versionamento de código.</p>
                     </li>
                   </ul>
                 </div>
-        </div>
+            </div>
     </section>
     <!-- End Experience section -->
 
     <!-- Start Projects section -->
     <section id="projects" class="projects">
-        <a href="#projects"><img src="assets/images/arrow.png" alt="" class="icon arrow" ></i></a>
-        <h1 class="heading">&lsaquo; projetos /&rsaquo;</h1>
+        <p class="heading">Projetos</p>
         <div class="container project-container">
             <div class="project">
                 <img src="" alt="">
@@ -148,8 +127,8 @@
                 <span>SpringBoot</span>
                 <span>Docker</span>
                 <div class="project-action-aria">
-                    <a href=""><i class="fa-brands fa-github"></i>  Github</a>
-                    <a href=""><i class="fa-solid fa-earth-americas"></i>  Live Demo</a>
+                    <a href="">Code <i class="fa-brands fa-github"></i></a>
+                    <a href="">Live Demo <i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="project">
@@ -160,8 +139,8 @@
                 <span>SpringBoot</span>
                 <span>Docker</span>
                 <div class="project-action-aria">
-                    <a href=""><i class="fa-brands fa-github"></i>  Github</a>
-                    <a href=""><i class="fa-solid fa-earth-americas"></i>  Live Demo</a>
+                    <a href="">Code <i class="fa-brands fa-github"></i></a>
+                    <a href="">Live Demo <i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="project">
@@ -172,148 +151,22 @@
                 <span>SpringBoot</span>
                 <span>Docker</span>
                 <div class="project-action-aria">
-                    <a href=""><i class="fa-brands fa-github"></i>  Github</a>
-                    <a href=""><i class="fa-solid fa-earth-americas"></i>  Live Demo</a>
+                    <a href="">Code <i class="fa-brands fa-github"></i></a>
+                    <a href="">Live Demo <i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
     </section>
     <!-- End Projects section -->
 
-     <!-- Start Certificatess section -->
-     <section class="container certificates"" id="certificates">
-        <h1 class="heading">&lsaquo; Certificados /&rsaquo; </About></h1>
-        <div class="card__container swiper">
-           <div class="card__content">
-              <div class="swiper-wrapper">
-                 <article class="card__article swiper-slide">
-                    <div class="card__data">
-                       <h3 class="card__name">The Complete Java Certification Course</h3>
-                       <p class="card__description">
-                            <b>Instituição:</b> Udemy <br>
-                            <b>Duração: 17.5h</b> <br>
-                            <b>Conclusão: 2023</b>
-                      </p>
-    
-                       <span>Certificado:</span><a href="https://www.udemy.com/certificate/UC-f9cae2a5-b5ca-499a-87ad-1be88286658a/" target="_blank" class="card__button">Clique aqui</a>
-                    </div>
-                 </article>
-     
-                 <article class="card__article swiper-slide">
-                    <div class="card__data">
-                       <h3 class="card__name">The Complete SQL Bootcamp</h3>
-                       <p class="card__description">
-                            <b>Instituição:</b> Udemy <br>
-                            <b>Duração: 9h</b> <br>
-                            <b>Conclusão: 2023</b>
-                      </p>
-    
-                       <span>Certificado:</span><a href="https://www.udemy.com/certificate/UC-cf3e5486-5e20-4b3d-a769-9952429e264c/"
-                        target="_blank" class="card__button">Clique aqui</a>
-                    </div>
-                 </article>
-                 <article class="card__article swiper-slide">
-                    <div class="card__data">
-                       <h3 class="card__name">RabbitMQ : Messaging with Java, Spring Boot And Spring MVC</h3>
-                       <p class="card__description">
-                            <b>Instituição:</b> Udemy <br>
-                            <b>Duração: 4h</b> <br>
-                            <b>Conclusão: 2023</b>
-                      </p>
-    
-     
-                       <span>Certificado:</span><a href="https://www.udemy.com/certificate/UC-91fe7e17-87dd-4938-80f5-c64a434a0976/" 
-                       target="_blank" class="card__button">Clique aqui</a>
-                    </div>
-                 </article>
-                 <article class="card__article swiper-slide">
-                    <div class="card__data">
-                       <h3 class="card__name">Testing Spring Boot: Beginner to Guru</h3>
-                       <p class="card__description">
-                            <b>Instituição:</b> Udemy <br>
-                            <b>Duração: 17h</b> <br>
-                            <b>Conclusão: 2023</b>
-                      </p>
-                       <span>Certificado:</span><a href="https://www.udemy.com/certificate/UC-b1bf9282-79a7-4a5b-b1f8-05c3999eaf1c/" target="_blank" class="card__button">Clique aqui</a>
-                    </div>
-                 </article>
-                 <article class="card__article swiper-slide">
-                    <div class="card__data">
-                       <h3 class="card__name">AWS Knowledge: Cloud Essentials</h3>
-                       <p class="card__description">
-                         <b>Instituição:</b> AWS Training & Certification <br>
-                         <b>Duração: 6h</b> <br>
-                         <b>Conclusão: 2023</b>
-                       </p>
-     
-                       <span>Certificado:</span><a href="https://www.credly.com/badges/2f262003-e82c-4969-9f5a-28f8c6accb3f/linked_in?t=s5xlor" target="_blank" class="card__button">Clique aqui</a>
-                    </div>
-                 </article>
-                 <article class="card__article swiper-slide">
-                    <div class="card__data">
-                       <h3 class="card__name"> AWS Partner: Cloud Economics Accreditation</h3>
-                       <p class="card__description">
-                         <b>Instituição:</b> AWS Training & Certification <br>
-                         <b>Duração: 2.5h</b> <br>
-                         <b>Conclusão: 2023</b>
-                       </p>
-     
-                       <span>Certificado:</span><a href="https://www.credly.com/badges/9a27e7ff-3b35-4a69-b2cd-c8fec2df0da1/linked_in?t=s5xlwm" target="_blank" class="card__button">Clique aqui</a>
-                    </div>
-                 </article>
-                 <article class="card__article swiper-slide">
-                    <div class="card__data">
-                       <h3 class="card__name">
-                        AWS Partner: Accreditation (Technical) </h3>
-                       <p class="card__description">
-                         <b>Instituição:</b> AWS Training & Certification <br>
-                         <b>Duração: 5h</b> <br>
-                         <b>Conclusão: 2023</b>
-                       </p>
-                       <span>Certificado:</span><a href="https://www.credly.com/badges/480d90d5-0c46-4c63-b5f4-ac74d6b3984b/linked_in?t=s5xlxx" target="_blank" class="card__button">Clique aqui</a>
-                    </div>
-                 </article>
-                 <article class="card__article swiper-slide">
-                    <div class="card__data">
-                       <h3 class="card__name">
-                       AWS Partner: Sales Accreditation (Business)</h3>
-                       <p class="card__description">
-                         <b>Instituição:</b> AWS Training & Certification <br>
-                         <b>Duração: 2.2h</b> <br>
-                         <b>Conclusão: 2023</b>
-                       </p>
-                       <span>Certificado:</span><a href="https://www.credly.com/badges/4eca192b-d43f-4f3a-b0b9-65ed2b490a8e/linked_in?t=s5xlrs" target="_blank" class="card__button">Clique aqui</a>
-                    </div>
-                 </article>
-              </div>
-           </div>
-
-           <!-- Navigation buttons -->
-           <div class="swiper-button-next">
-              <i class="ri-arrow-right-s-line"></i>
-           </div>
-           
-           <div class="swiper-button-prev">
-              <i class="ri-arrow-left-s-line"></i>
-           </div>
-
-           <!-- Pagination -->
-           <div class="swiper-pagination"></div>
-        </div>
-    </section>
-    <!-- End Certificates section -->
-
      <!-- Start Contact section -->
      <section id="contact">
-        <a href="#contact"><img src="/assets/images/arrow.png" alt="" class="icon arrow" ></i></a>
-        <h1 class="heading">&lsaquo; Contato /&rsaquo;</h1>
+        <h1 class="heading">Contato</h1>
         <div class="contact-container container">
             <div class="email">
-                <i class="fa-solid fa-envelope"></i>
                 <a href="mailto: iamcamilabarbosa@gmail.com?subject=Olá, Camila. Vim pelo seu portfólio! :)"><h5>E-mail</h5></a>
             </div>
             <div class="linkedin">
-                <i class="fa-brands fa-linkedin"></i>
                 <a href="https://www.linkedin.com/in/iamcamilabarbosa/" target="_blank"><h5>Linkedin</h5></a>
             </div>
         </div>
@@ -326,20 +179,25 @@
             <li><a href="#about">Sobre</a></li>
             <li><a href="#experiences">Experiências</a></li>
             <li><a href="#projects">Projetos</a></li>
-            <li><a href="#certificates">Certificados</a></li>
             <li><a href="#contact">Contato</a></li>
         </ul>
         <div class="social-media">
             <a href="https://www.linkedin.com/in/iamcamilabarbosa/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/camibarbosa" target="_blank"><i class="fa-brands fa-github"></i></a>
           </div>
-        <p>&copy; v.0.1. 2024 - Camila Barbosa</p>
+        <p>&copy; v1.1.0. 2024 - Camila Barbosa</p>
     </footer>
     <!-- End Footer section -->
 
 
     <!--=============== SWIPER JS ===============-->
     <script src="assets/js/swiper-bundle.min.js"></script>
+
+     <!-- ===============- TYPING JS Link===============- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- ===============- SCROLL REVEAL JS Link ===============-->
+    
+     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
